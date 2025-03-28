@@ -23,7 +23,7 @@ import { LoggerModule } from 'nestjs-pino';
     CardModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: '82.197.93.184',
+      host: 'kamban-database.c9mwu4mwau7b.us-east-1.rds.amazonaws.com',
       port: 3306,
       username: 'root',
       password: 'root86049796',
